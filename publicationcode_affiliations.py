@@ -10,7 +10,7 @@ import collections
 import csv
 import time
 
-Entrez.email = "johannes.stalter@uni-oldenburg.de"  # Ensure you've set this to your email
+Entrez.email = "ENTER YOUR EMAIL"  
 
 def search_pubmed(search_term):
     handle = Entrez.esearch(db="pubmed", term=search_term, retmax=10000)
@@ -76,6 +76,6 @@ def list_authors_and_affiliations(search_term, filename):
     save_authors_to_csv(author_details, filename + '.csv')
 
 # Example usage
-search_term = '("transcranial alternating current stimulation")'
-filename = 'tACS_CSH'
+search_term = 'ENTER SEARCH TERM'
+filename = 'ENTER FILENAME'
 list_authors_and_affiliations(search_term, filename)
