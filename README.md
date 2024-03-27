@@ -1,9 +1,3 @@
-# Publication-Lab-List
-
-Sure, I'll draft a README file for your script. This README will outline what the script does, its dependencies, how to set it up, and how to use it. 
-
----
-
 # PubMed Author Analyzer
 
 This Python script provides a convenient way to search for scientific articles on PubMed based on a specific search term, extract author details from those articles, and then save this information into a CSV file. The script gathers data such as the author's name, their publication count, and their affiliations.
@@ -68,7 +62,3 @@ This script is released under the MIT License. See the LICENSE file for more det
 ## Contributions
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
-
----
-
-This README provides a basic guide for users to get started with your script. Depending on your project's needs, you might want to add more sections like "Known Issues", "Troubleshooting", or "FAQs".
